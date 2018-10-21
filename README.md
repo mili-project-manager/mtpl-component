@@ -1,3 +1,4 @@
+<!-- mili upgrade type: cover -->
 # component-template
 
 

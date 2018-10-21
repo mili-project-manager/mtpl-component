@@ -7,6 +7,10 @@ exports.engines = ">=1.0.0<2.0.0"
 
 exports.rules = [
   {
+    path: 'src',
+    upgrade: 'keep',
+  },
+  {
     path: 'package.json.mustache',
     upgrade: 'merge',
     handlers: ['mustache']

@@ -11,6 +11,10 @@ exports.rules = [
     upgrade: 'keep',
   },
   {
+    path: 'test',
+    upgrade: 'keep',
+  },
+  {
     path: 'package.json.mustache',
     upgrade: 'merge',
     handlers: ['mustache']

@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+# [0.2.0](https://github.com/Val-istar-Guo/component-template/compare/v0.1.1...v0.2.0) (2018-10-25)
+
+
+### Features
+
+* **readme:** add custom area ([044faca](https://github.com/Val-istar-Guo/component-template/commit/044faca))
+* add release:first script ([fbbe577](https://github.com/Val-istar-Guo/component-template/commit/fbbe577))
+
+
+
 <a name="0.1.1"></a>
 ## [0.1.1](https://github.com/Val-istar-Guo/component-template/compare/v0.1.0...v0.1.1) (2018-10-25)
 

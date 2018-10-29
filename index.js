@@ -1,8 +1,7 @@
 // path of template files
 exports.path = './template'
 
-// mili version >= 1.0.0
-exports.engines = ">=1.0.0<2.0.0"
+exports.engines = ">=1.3.0<2.0.0"
 
 
 exports.rules = [
@@ -25,5 +24,9 @@ exports.rules = [
       core => core.extractArea('content', '<!-- custom -->'),
       'mustache',
     ],
+  },
+  {
+    path: 'rollup.config.js',
+    upgrade: 'exist',
   },
 ]

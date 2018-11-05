@@ -1,7 +1,7 @@
 {
   "name": "component-template",
   "description": "component template",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "main": "index.js",
   "author": "Val-istar-Guo <val.istar.guo@gmail.com>",
   "license": "MIT",

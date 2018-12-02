@@ -5,6 +5,6 @@
 ## Usage
 
 ```shell
-npx mili init https://github.com/Val-istar-Guo/component-template.git
+npx mili init Val-istar-Guo/component-template
 ```
 <!-- custom -->

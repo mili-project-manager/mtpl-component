@@ -1,7 +1,7 @@
 // path of template files
 exports.path = './template'
 
-exports.engines = ">=1.4.0 <2.0.0"
+exports.engines = ">=1.8.0 <2.0.0"
 
 
 exports.rules = [

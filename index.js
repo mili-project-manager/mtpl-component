@@ -30,9 +30,3 @@ exports.rules = [
     upgrade: 'exist',
   },
 ]
-
-exports.hooks = {
-  afterUpdate: 'echo "Welcome to update"',
-  afterUpgrade: 'echo "Welcome to the new version"',
-  afterInit: 'echo "Welcome to the compoent-template"',
-}

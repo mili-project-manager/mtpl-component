@@ -4,6 +4,8 @@
   "module": "src/index.js",
   "scripts": {
     "test": "ava",
+    "report": "nyc report --reporter=html",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "updateSnapshots": "ava -u",
     "upgrade": "mili upgrade",
     "clean": "rm -rf ./dist/*",
@@ -46,9 +48,11 @@
     "rollup-plugin-json": "^3.0.0",
     "rollup-plugin-node-resolve": "^3.3.0",
     "commitizen": "^3.0.2",
+    "coveralls": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
     "@commitlint/cli": "^7.2.0",
     "@commitlint/config-conventional": "^7.1.2",
+    "nyc": "^13.1.0",
     "standard-version": "^4.4.0"
   },
   "dependencies": {}

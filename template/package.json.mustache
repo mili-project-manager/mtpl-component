@@ -7,7 +7,6 @@
     "report": "nyc report --reporter=html",
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
     "updateSnapshots": "ava -u",
-    "upgrade": "mili upgrade",
     "clean": "rm -rf ./dist/*",
     "build": "npm run clean & rollup -c",
     "prepublishOnly": "npm test; npm run build",

@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.0"></a>
+# [1.0.0](https://github.com/Val-istar-Guo/component-template/compare/v0.5.3...v1.0.0) (2019-05-08)
+
+
+### Features
+
+* upgrade template to support mili@2 ([a15cf3f](https://github.com/Val-istar-Guo/component-template/commit/a15cf3f))
+
+
+### BREAKING CHANGES
+
+* Not compatible with mili@1
+
+
+
 <a name="0.5.3"></a>
 ## [0.5.3](https://github.com/Val-istar-Guo/component-template/compare/v0.5.2...v0.5.3) (2019-01-31)
 

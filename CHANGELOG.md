@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/Val-istar-Guo/component-template/compare/v1.0.0...v1.1.0) (2019-05-13)
+
+
+### Features
+
+* add description field in readme ([155b545](https://github.com/Val-istar-Guo/component-template/commit/155b545))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/Val-istar-Guo/component-template/compare/v0.5.3...v1.0.0) (2019-05-08)
 

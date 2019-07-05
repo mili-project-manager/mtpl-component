@@ -14,7 +14,7 @@ const onwarn = (warning, warn) => {
 
 const plugins = [autoExternal(), tsPath(), json(), typescript()]
 
-const sourcemap = true
+const sourcemap = process.env.NODE_ENV === 'development'
 
 export default [
   {

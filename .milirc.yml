@@ -1,4 +1,9 @@
-repository: https://github.com/Val-istar-Guo/mili-template.git
-version: 0.1.2
 mili:
-  version: 1.10.0
+  version: 3.2.0
+template:
+  repository: 'https://github.com/Val-istar-Guo/mili-template.git'
+  version: 1.2.1
+answers:
+  lint: true
+  standardVersion: true
+  lock: false

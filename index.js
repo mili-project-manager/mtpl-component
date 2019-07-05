@@ -54,14 +54,14 @@ exports.rules = [
     path: 'rollup.node.js',
     handlers: [
       core => core.rename('rollup.config.js'),
-      core => core.ignoreWhen(({ answers }) => answers.packaage !== 'NodeJS'),
+      core => core.ignoreWhen(({ answers }) => answers.package !== 'NodeJS'),
     ],
   },
   {
     path: 'rollup.browser.js',
     handlers: [
       core => core.rename('rollup.config.js'),
-      core => core.ignoreWhen(({ answers }) => answers.node !== 'Browser'),
+      core => core.ignoreWhen(({ answers }) => answers.package !== 'Browser'),
     ],
   },
   {

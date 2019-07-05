@@ -23,6 +23,7 @@
 
     "clean": "rm -rf ./lib/*",
     "prebuild": "npm run clean",
+    "watch": "NODE_ENV=development rollup -c -w",
     "build": "rollup -c"
   },
   "devDependencies": {

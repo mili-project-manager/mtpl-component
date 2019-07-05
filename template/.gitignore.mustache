@@ -1,4 +1,7 @@
+# Mac
 .DS_Store
+
+# Node
 node_modules
 
 # Error Log
@@ -6,15 +9,18 @@ npm-debug.log*
 yarn-error.log
 
 # Complie
-dist/
+lib/
+es/
 
 # Editor
 *.swp
 .vscode
 
+{{^answers.lock}}
 # Lock File
 package-lock.json
 yarn.lock
+{{/answers.lock}}
 
 # Test
 coverage

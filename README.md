@@ -1,10 +1,11 @@
 # component-template
 
+<!-- description -->
+Develop a template for a generic typescript module.
 
-<!-- custom -->
 ## Usage
 
 ```shell
 npx mili init Val-istar-Guo/component-template
 ```
-<!-- custom -->
+<!-- description -->

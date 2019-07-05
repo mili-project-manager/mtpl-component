@@ -1,0 +1,5 @@
+hooks:
+  pre-commit: npm test {{#answers.lint}}&& lint-staged{{/answers.lint}} && npx mili check --diff --no-deps --ignore "**/node_modules"
+  {{#answers.standardVersion}}
+  commit-msg: commitlint -E HUSKY_GIT_PARAMS
+  {{/answers.standardVersion}}

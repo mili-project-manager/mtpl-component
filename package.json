@@ -32,7 +32,9 @@
     "@commitlint/config-conventional": "^7.1.2",
     "commitizen": "^3.0.2",
     "cz-conventional-changelog": "^2.1.0",
-    "husky": "^1.1.1",
-    "standard-version": "^4.4.0"
+    "husky": "^2.1.0",
+    "standard-version": "^4.4.0",
+    "lint-staged": "^8.1.5",
+    "prettier": "1.17.0"
   }
 }

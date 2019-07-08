@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.2"></a>
+## [2.2.2](https://github.com/Val-istar-Guo/component-template/compare/v2.2.1...v2.2.2) (2019-07-08)
+
+
+### Bug Fixes
+
+* 删除eslintignore ([8ed6420](https://github.com/Val-istar-Guo/component-template/commit/8ed6420))
+
+
+
 <a name="2.2.1"></a>
 ## [2.2.1](https://github.com/Val-istar-Guo/component-template/compare/v2.2.0...v2.2.1) (2019-07-05)
 

@@ -33,6 +33,10 @@ exports.rules = [
     path: 'tests',
     upgrade: 'keep',
   },
+  {
+    path: 'tests/tsconfig.json',
+    upgrade: 'cover',
+  },
 
   {
     path: 'package.json.mustache',

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.3"></a>
+## [2.2.3](https://github.com/Val-istar-Guo/component-template/compare/v2.2.2...v2.2.3) (2019-07-16)
+
+
+### Bug Fixes
+
+* 测试文件初始化文件也应该为ts文件并需要tsconfig提供vscode支持 ([0fd3129](https://github.com/Val-istar-Guo/component-template/commit/0fd3129))
+
+
+
 <a name="2.2.2"></a>
 ## [2.2.2](https://github.com/Val-istar-Guo/component-template/compare/v2.2.1...v2.2.2) (2019-07-08)
 

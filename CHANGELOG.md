@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.5"></a>
+## [2.2.5](https://github.com/Val-istar-Guo/component-template/compare/v2.2.4...v2.2.5) (2019-07-16)
+
+
+### Bug Fixes
+
+* 项目名称不需要转义 ([d328739](https://github.com/Val-istar-Guo/component-template/commit/d328739))
+
+
+
 <a name="2.2.4"></a>
 ## [2.2.4](https://github.com/Val-istar-Guo/component-template/compare/v2.2.3...v2.2.4) (2019-07-16)
 

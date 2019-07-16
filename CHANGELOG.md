@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.2.4"></a>
+## [2.2.4](https://github.com/Val-istar-Guo/component-template/compare/v2.2.3...v2.2.4) (2019-07-16)
+
+
+### Bug Fixes
+
+* commit命令缺失 ([8a24d8f](https://github.com/Val-istar-Guo/component-template/commit/8a24d8f))
+
+
+
 <a name="2.2.3"></a>
 ## [2.2.3](https://github.com/Val-istar-Guo/component-template/compare/v2.2.2...v2.2.3) (2019-07-16)
 

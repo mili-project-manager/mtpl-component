@@ -170,3 +170,4 @@ rules:
     - overrides:
         accessors: off
         constructors: off
+        properties: no-public

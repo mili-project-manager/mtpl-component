@@ -83,6 +83,17 @@ exports.rules = [
     upgrade: 'merge',
     handlers: ['mustache', removeWhenEmpty],
   },
+
+  {
+    path: 'backers.md',
+    handlers: [
+      core => core.extractArea('goldSponsors', '<!-- gold-sponsors -->'),
+      core => core.extractArea('bronzeSponsors', '<!-- bronze-sponsors -->'),
+      core => core.extractArea('generousBackers', '<!-- generous-backers -->'),
+      core => core.extractArea('backers', '<!-- backers -->'),
+      'mustache',
+    ],
+  },
 ]
 
 exports.questions = [

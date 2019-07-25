@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.4.0"></a>
+# [2.4.0](https://github.com/Val-istar-Guo/component-template/compare/v2.3.0...v2.4.0) (2019-07-25)
+
+
+### Features
+
+* add sponsor button ([656d246](https://github.com/Val-istar-Guo/component-template/commit/656d246))
+
+
+
 <a name="2.3.0"></a>
 # [2.3.0](https://github.com/Val-istar-Guo/component-template/compare/v2.2.5...v2.3.0) (2019-07-21)
 

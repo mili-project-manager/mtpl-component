@@ -85,7 +85,7 @@ exports.rules = [
   },
 
   {
-    path: 'backers.md',
+    path: 'backers.md.mustache',
     handlers: [
       core => core.extractArea('goldSponsors', '<!-- gold-sponsors -->'),
       core => core.extractArea('bronzeSponsors', '<!-- bronze-sponsors -->'),

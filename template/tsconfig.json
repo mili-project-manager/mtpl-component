@@ -8,6 +8,8 @@
     "noImplicitAny": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "baseUrl": "./",
     "noEmitOnError": true,
     "paths": {

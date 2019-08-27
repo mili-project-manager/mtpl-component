@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.0"></a>
+# [2.5.0](https://github.com/Val-istar-Guo/component-template/compare/v2.4.1...v2.5.0) (2019-08-27)
+
+
+### Bug Fixes
+
+* **deps:** cannot find build-in node modules ([565b153](https://github.com/Val-istar-Guo/component-template/commit/565b153))
+
+
+### Features
+
+* enable decorator ([81a7edc](https://github.com/Val-istar-Guo/component-template/commit/81a7edc))
+
+
+
 <a name="2.4.1"></a>
 ## [2.4.1](https://github.com/Val-istar-Guo/component-template/compare/v2.4.0...v2.4.1) (2019-07-25)
 

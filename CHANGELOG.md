@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.5.1"></a>
+## [2.5.1](https://github.com/Val-istar-Guo/component-template/compare/v2.5.0...v2.5.1) (2019-08-27)
+
+
+### Bug Fixes
+
+* move [@types](https://github.com/types)/node to dev deps ([25b08a6](https://github.com/Val-istar-Guo/component-template/commit/25b08a6))
+* project name in backers was encoded ([dd28b87](https://github.com/Val-istar-Guo/component-template/commit/dd28b87))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/Val-istar-Guo/component-template/compare/v2.4.1...v2.5.0) (2019-08-27)
 

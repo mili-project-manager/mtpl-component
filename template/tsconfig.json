@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "moduleResolution": "node",
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es6",
     "strict": true,
     "noImplicitAny": false,
@@ -10,6 +10,7 @@
     "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
+    "declaration": true,
     "baseUrl": "./",
     "noEmitOnError": true,
     "paths": {

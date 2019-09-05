@@ -1,8 +1,8 @@
 mili:
-  version: 3.2.0
+  version: 3.6.0
 template:
   repository: 'https://github.com/Val-istar-Guo/mili-template.git'
-  version: 1.2.1
+  version: 1.2.5
 answers:
   lint: true
   standardVersion: true

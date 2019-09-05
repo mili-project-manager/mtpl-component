@@ -1,4 +1,4 @@
-# component-template
+# @mtpl/component-template
 
 <!-- description -->
 Develop a template for a generic typescript module.

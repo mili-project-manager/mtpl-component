@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.2"></a>
+## [2.6.2](https://github.com/Val-istar-Guo/component-template/compare/v2.6.1...v2.6.2) (2019-09-05)
+
+
+### Bug Fixes
+
+* missing rollup typescript plugin ([d4dc565](https://github.com/Val-istar-Guo/component-template/commit/d4dc565))
+
+
+
 <a name="2.6.1"></a>
 ## [2.6.1](https://github.com/Val-istar-Guo/component-template/compare/v2.6.0...v2.6.1) (2019-09-05)
 

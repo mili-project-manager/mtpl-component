@@ -2,6 +2,7 @@ import json from 'rollup-plugin-json'
 import resolve from 'rollup-plugin-node-resolve'
 import commonjs from 'rollup-plugin-commonjs'
 import autoExternal from 'rollup-plugin-auto-external'
+import typescript from 'rollup-plugin-typescript'
 
 export const plugins = [
   autoExternal(),

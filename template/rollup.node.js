@@ -1,4 +1,4 @@
-import typescript from 'rollup-plugin-typescript'
+import typescript from 'rollup-plugin-typescript2'
 import tsPath from 'rollup-plugin-ts-paths'
 import json from 'rollup-plugin-json'
 import autoExternal from 'rollup-plugin-auto-external'

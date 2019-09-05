@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.1"></a>
+## [2.6.1](https://github.com/Val-istar-Guo/component-template/compare/v2.6.0...v2.6.1) (2019-09-05)
+
+
+### Bug Fixes
+
+* cannot parse ts file of tests ([9703a7b](https://github.com/Val-istar-Guo/component-template/commit/9703a7b))
+
+
+
 <a name="2.6.0"></a>
 # [2.6.0](https://github.com/Val-istar-Guo/component-template/compare/v2.5.1...v2.6.0) (2019-09-05)
 

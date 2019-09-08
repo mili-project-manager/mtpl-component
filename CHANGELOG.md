@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.3"></a>
+## [2.6.3](https://github.com/Val-istar-Guo/component-template/compare/v2.6.2...v2.6.3) (2019-09-08)
+
+
+### Bug Fixes
+
+* alias in .d.ts isn't replaced ([b9f2150](https://github.com/Val-istar-Guo/component-template/commit/b9f2150))
+* unable parse ts of tests ([007de15](https://github.com/Val-istar-Guo/component-template/commit/007de15))
+
+
+
 <a name="2.6.2"></a>
 ## [2.6.2](https://github.com/Val-istar-Guo/component-template/compare/v2.6.1...v2.6.2) (2019-09-05)
 

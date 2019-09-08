@@ -1,6 +1,6 @@
 {
-  "name": "@mtpl/component-template",
-  "description": "component template",
+  "name": "@mtpl/component",
+  "description": "typescript component template",
   "version": "2.6.3",
   "main": "index.js",
   "author": "Val-istar-Guo <val.istar.guo@gmail.com>",
@@ -16,6 +16,7 @@
   "keywords": [
     "mili",
     "component",
+    "typescript",
     "template"
   ],
   "engines": {

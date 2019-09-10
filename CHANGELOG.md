@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.6.5"></a>
+## [2.6.5](https://github.com/Val-istar-Guo/component-template/compare/v2.6.4...v2.6.5) (2019-09-10)
+
+
+### Bug Fixes
+
+* missing ts plugins ([dc906d6](https://github.com/Val-istar-Guo/component-template/commit/dc906d6))
+
+
+
 <a name="2.6.4"></a>
 ## [2.6.4](https://github.com/Val-istar-Guo/component-template/compare/v2.6.3...v2.6.4) (2019-09-09)
 

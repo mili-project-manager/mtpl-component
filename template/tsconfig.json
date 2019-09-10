@@ -15,7 +15,10 @@
     "noEmitOnError": true,
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "plugins": [
+      { "transform": "@zerollup/ts-transform-paths" }
+    ]
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts"]

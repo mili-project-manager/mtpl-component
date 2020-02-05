@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.0"></a>
+# [2.7.0](https://github.com/Val-istar-Guo/component-template/compare/v2.6.5...v2.7.0) (2020-02-05)
+
+
+### Features
+
+* 打包输出.d.ts文件 ([20bb34d](https://github.com/Val-istar-Guo/component-template/commit/20bb34d))
+
+
+
 <a name="2.6.5"></a>
 ## [2.6.5](https://github.com/Val-istar-Guo/component-template/compare/v2.6.4...v2.6.5) (2019-09-10)
 

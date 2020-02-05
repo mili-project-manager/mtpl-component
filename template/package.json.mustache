@@ -23,48 +23,45 @@
 
     "clean": "rm -rf ./lib/*",
     "prebuild": "npm run clean",
-    "watch": "NODE_ENV=development rollup -c -w",
-    "build": "rollup -c"
+    "build:es": "ttsc -p build/tsconfig.es.json",
+    "build:lib": "ttsc -p build/tsconfig.lib.json",
+    "build": "npm run build:lib && npm run build:es",
+    "watch": "NODE_ENV=development ttsc -p build/tsconfig.lib.json -w"
   },
   "devDependencies": {
     {{#answers.standardVersion}}
-    "@commitlint/cli": "^8.0.0",
-    "@commitlint/config-conventional": "^8.0.0",
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "standard-version": "^6.0.1",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.1.0",
+    "standard-version": "^7.1.0",
     {{/answers.standardVersion}}
 
-    "nyc": "^14.1.1",
-    "@istanbuljs/nyc-config-typescript": "^0.1.3",
-    "ts-node": "^8.3.0",
-    "ava": "^2.1.0",
+    "nyc": "^15.0.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.1",
+    "ts-node": "^8.6.2",
+    "ava": "^3.2.0",
 
     {{#answers.ci}}
-    "coveralls": "^3.0.4",
+    "coveralls": "^3.0.9",
     {{/answers.ci}}
 
     {{#answers.lint}}
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/parser": "^1.11.0",
-    "eslint": "^6.0.1",
-    "lint-staged": "^8.2.1",
+    "@typescript-eslint/eslint-plugin": "^2.19.0",
+    "@typescript-eslint/parser": "^2.19.0",
+    "eslint": "^6.8.0",
+    "lint-staged": "^10.0.7",
     {{/answers.lint}}
 
-    "@types/node": "^12.7.2",
-    "@zerollup/ts-transform-paths": "^1.7.3",
-    "husky": "^2.7.0",
-    "rollup": "^1.20.3",
-    "rollup-plugin-auto-external": "^2.0.0",
-    "rollup-plugin-commonjs": "^9.1.0",
-    "rollup-plugin-json": "^4.0.0",
-    "rollup-plugin-node-resolve": "^3.3.0",
-    "rollup-plugin-string": "^3.0.0",
-    "rollup-plugin-typescript2": "^0.24.0",
-    "sinon": "^7.4.2"
-    "source-map-support": "^0.5.12",
-    "tsconfig-paths": "^3.8.0",
-    "ttypescript": "^1.5.7",
-    "typescript": "^3.5.2"
+    "husky": "^4.2.1",
+    "sinon": "^8.1.1",
+    "tsconfig-paths": "^3.9.0",
+    "ttypescript": "^1.5.10",
+    "typescript": "^3.7.5",
+    "typescript-transform-paths": "^1.1.14"
+  },
+
+  "dependencies": {
+    "@types/node": "^13.7.0"
   }
 }

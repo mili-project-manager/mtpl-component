@@ -10,6 +10,11 @@ const removeWhenEmpty = {
     file.renderable = !!file.content.replace(/^\s*/, '').length
   },
 }
+const addProp = (name, value) => ({
+  genFile: async (file, resource) => {
+    file.addition[name] = typeof value === 'function' ? value(resource) : value
+  },
+})
 
 exports.rules = [
   {
@@ -55,17 +60,17 @@ exports.rules = [
     ],
   },
   {
-    path: 'rollup.node.js',
+    path: 'build/tsconfig.cmd.json',
     handlers: [
-      core => core.rename('rollup.config.js'),
-      core => core.ignoreWhen(({ answers }) => answers.package !== 'NodeJS'),
+      core => core.rename('tsconfig.lib.json'),
+      core => core.ignoreWhen(({ answers }) => answers.module !== 'commonjs'),
     ],
   },
   {
-    path: 'rollup.browser.js',
+    path: 'build/tsconfig.umd.json',
     handlers: [
-      core => core.rename('rollup.config.js'),
-      core => core.ignoreWhen(({ answers }) => answers.package !== 'Browser'),
+      core => core.rename('tsconfig.lib.json'),
+      core => core.ignoreWhen(({ answers }) => answers.module !== 'umd'),
     ],
   },
   {
@@ -94,6 +99,16 @@ exports.rules = [
       'mustache',
     ],
   },
+  {
+    path: 'tsconfig.json.mustache',
+    handlers: [
+      addProp(
+        'resolveJsonModule',
+        ({ answers }) => answers.module === 'commonjs'
+      ),
+      'mustache',
+    ],
+  },
 ]
 
 exports.questions = [
@@ -103,8 +118,8 @@ exports.questions = [
   { type: 'confirm', name: 'lock', message: '启用依赖锁定' },
   {
     type: 'list',
-    name: 'package',
-    message: '模块的运行环境',
-    choices: ['NodeJS', 'Browser'],
+    name: 'module',
+    message: '指定生成哪个模块系统代码',
+    choices: ['commonjs', 'umd'],
   },
 ]

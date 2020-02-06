@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.1"></a>
+## [2.7.1](https://github.com/Val-istar-Guo/component-template/compare/v2.7.0...v2.7.1) (2020-02-06)
+
+
+### Bug Fixes
+
+* eslintignore file not render ([2ecbdca](https://github.com/Val-istar-Guo/component-template/commit/2ecbdca))
+
+
+
 <a name="2.7.0"></a>
 # [2.7.0](https://github.com/Val-istar-Guo/component-template/compare/v2.6.5...v2.7.0) (2020-02-05)
 

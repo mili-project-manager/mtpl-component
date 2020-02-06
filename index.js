@@ -22,8 +22,13 @@ exports.rules = [
     handler: ignoreWhenNoStanderVersion,
   },
   {
-    path: '@(.lintstagedrc.yml|.eslintrc.yml|.eslintignore|.editorconfig)',
+    path: '@(.lintstagedrc.yml|.eslintrc.yml|.editorconfig)',
     handler: ignoreWhenNoLint,
+  },
+  {
+    path: '.eslintignore',
+    upgrade: 'merge',
+    handlers: ignoreWhenNoLint,
   },
   {
     path: '.huskyrc.yml.mustache',

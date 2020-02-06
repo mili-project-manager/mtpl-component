@@ -28,7 +28,7 @@ exports.rules = [
   {
     path: '.eslintignore',
     upgrade: 'merge',
-    handlers: ignoreWhenNoLint,
+    handler: ignoreWhenNoLint,
   },
   {
     path: '.huskyrc.yml.mustache',

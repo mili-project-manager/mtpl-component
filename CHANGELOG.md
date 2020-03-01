@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.5"></a>
+## [2.7.5](https://github.com/Val-istar-Guo/component-template/compare/v2.7.4...v2.7.5) (2020-03-01)
+
+
+### Bug Fixes
+
+* ava timeout for mili ([2e7eef6](https://github.com/Val-istar-Guo/component-template/commit/2e7eef6))
+
+
+
 <a name="2.7.4"></a>
 ## [2.7.4](https://github.com/Val-istar-Guo/component-template/compare/v2.7.3...v2.7.4) (2020-02-06)
 

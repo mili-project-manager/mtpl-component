@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.6"></a>
+## [2.7.6](https://github.com/Val-istar-Guo/component-template/compare/v2.7.5...v2.7.6) (2020-03-02)
+
+
+### Bug Fixes
+
+* remove blank line between function overload ([01cb08d](https://github.com/Val-istar-Guo/component-template/commit/01cb08d))
+
+
+
 <a name="2.7.5"></a>
 ## [2.7.5](https://github.com/Val-istar-Guo/component-template/compare/v2.7.4...v2.7.5) (2020-03-01)
 

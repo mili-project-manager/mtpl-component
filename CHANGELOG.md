@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.7"></a>
+## [2.7.7](https://github.com/Val-istar-Guo/component-template/compare/v2.7.6...v2.7.7) (2020-03-21)
+
+
+### Bug Fixes
+
+* husky bug that cannot use simple-git in git hook ([7a07121](https://github.com/Val-istar-Guo/component-template/commit/7a07121))
+
+
+
 <a name="2.7.6"></a>
 ## [2.7.6](https://github.com/Val-istar-Guo/component-template/compare/v2.7.5...v2.7.6) (2020-03-02)
 

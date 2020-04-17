@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.8"></a>
+## [2.7.8](https://github.com/Val-istar-Guo/component-template/compare/v2.7.7...v2.7.8) (2020-04-17)
+
+
+### Bug Fixes
+
+* eslint not include tests/tsconfig.json ([3a40ed6](https://github.com/Val-istar-Guo/component-template/commit/3a40ed6))
+
+
+
 <a name="2.7.7"></a>
 ## [2.7.7](https://github.com/Val-istar-Guo/component-template/compare/v2.7.6...v2.7.7) (2020-03-21)
 

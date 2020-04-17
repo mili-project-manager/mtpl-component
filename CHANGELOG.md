@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.9"></a>
+## [2.7.9](https://github.com/Val-istar-Guo/component-template/compare/v2.7.8...v2.7.9) (2020-04-17)
+
+
+### Bug Fixes
+
+* tsconfig should only include src files ([df4c674](https://github.com/Val-istar-Guo/component-template/commit/df4c674))
+
+
+
 <a name="2.7.8"></a>
 ## [2.7.8](https://github.com/Val-istar-Guo/component-template/compare/v2.7.7...v2.7.8) (2020-04-17)
 

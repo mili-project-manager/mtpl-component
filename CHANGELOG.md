@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.7.10"></a>
+## [2.7.10](https://github.com/Val-istar-Guo/component-template/compare/v2.7.9...v2.7.10) (2020-07-09)
+
+
+### Bug Fixes
+
+* missing export default ([bb462b9](https://github.com/Val-istar-Guo/component-template/commit/bb462b9))
+
+
+
 <a name="2.7.9"></a>
 ## [2.7.9](https://github.com/Val-istar-Guo/component-template/compare/v2.7.8...v2.7.9) (2020-04-17)
 

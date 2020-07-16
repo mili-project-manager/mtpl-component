@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.1"></a>
+## [2.8.1](https://github.com/Val-istar-Guo/component-template/compare/v2.8.0...v2.8.1) (2020-07-16)
+
+
+### Bug Fixes
+
+* ignore error that no default exported by src/index ([15725b7](https://github.com/Val-istar-Guo/component-template/commit/15725b7))
+
+
+
 <a name="2.8.0"></a>
 # [2.8.0](https://github.com/Val-istar-Guo/component-template/compare/v2.7.10...v2.8.0) (2020-07-16)
 

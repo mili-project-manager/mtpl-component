@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.0"></a>
+# [2.8.0](https://github.com/Val-istar-Guo/component-template/compare/v2.7.10...v2.8.0) (2020-07-16)
+
+
+### Features
+
+* upgrade dependencies ([24f0eeb](https://github.com/Val-istar-Guo/component-template/commit/24f0eeb))
+
+
+
 <a name="2.7.10"></a>
 ## [2.7.10](https://github.com/Val-istar-Guo/component-template/compare/v2.7.9...v2.7.10) (2020-07-09)
 

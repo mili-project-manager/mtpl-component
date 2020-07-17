@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.8.2"></a>
+## [2.8.2](https://github.com/Val-istar-Guo/component-template/compare/v2.8.1...v2.8.2) (2020-07-17)
+
+
+### Bug Fixes
+
+* ts-ignore throw error ([8c44eed](https://github.com/Val-istar-Guo/component-template/commit/8c44eed))
+
+
+
 <a name="2.8.1"></a>
 ## [2.8.1](https://github.com/Val-istar-Guo/component-template/compare/v2.8.0...v2.8.1) (2020-07-16)
 

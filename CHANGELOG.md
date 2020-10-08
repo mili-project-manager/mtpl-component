@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.10.0"></a>
+# [2.10.0](https://github.com/Val-istar-Guo/component-template/compare/v2.9.1...v2.10.0) (2020-10-08)
+
+
+### Features
+
+* upgrade typescript to 4 ([3973976](https://github.com/Val-istar-Guo/component-template/commit/3973976))
+
+
+
 <a name="2.9.1"></a>
 ## [2.9.1](https://github.com/Val-istar-Guo/component-template/compare/v2.9.0...v2.9.1) (2020-09-30)
 

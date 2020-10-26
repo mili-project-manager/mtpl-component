@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.11.4"></a>
+## [2.11.4](https://github.com/Val-istar-Guo/component-template/compare/v2.11.3...v2.11.4) (2020-10-26)
+
+
+### Bug Fixes
+
+* esModuleInterop shouldn't be enabled for component ([3c2260a](https://github.com/Val-istar-Guo/component-template/commit/3c2260a))
+
+
+
 <a name="2.11.3"></a>
 ## [2.11.3](https://github.com/Val-istar-Guo/component-template/compare/v2.11.2...v2.11.3) (2020-10-23)
 

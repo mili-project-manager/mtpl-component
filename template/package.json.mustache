@@ -34,16 +34,16 @@
   },
   "devDependencies": {
     {{#answers.standardVersion}}
-    "@commitlint/cli": "^9.1.1",
-    "@commitlint/config-conventional": "^9.1.1",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "commitizen": "^4.1.2",
     "cz-conventional-changelog": "^3.2.0",
-    "standard-version": "^8.0.2",
+    "standard-version": "^9.0.0",
     {{/answers.standardVersion}}
 
     "nyc": "^15.1.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "ts-node": "^8.10.2",
+    "ts-node": "^9.0.0",
     "ava": "^3.10.1",
 
     {{#answers.ci}}
@@ -51,22 +51,22 @@
     {{/answers.ci}}
 
     {{#answers.lint}}
-    "@typescript-eslint/eslint-plugin": "^4.4.0",
-    "@typescript-eslint/parser": "^4.4.0",
-    "eslint": "^7.4.0",
+    "@typescript-eslint/eslint-plugin": "^4.7.0",
+    "@typescript-eslint/parser": "^4.7.0",
+    "eslint": "^7.13.0",
     "lint-staged": "^10.2.11",
     {{/answers.lint}}
 
     "copyfiles": "^2.3.0",
     "husky": "^4.2.5",
-    "sinon": "^9.0.2",
+    "sinon": "^9.2.1",
     "tsconfig-paths": "^3.9.0",
     "ttypescript": "^1.5.10",
-    "typescript": "^4.0.3",
-    "typescript-transform-paths": "^2.0.1"
+    "typescript": "^4.0.5",
+    "typescript-transform-paths": "^2.0.2"
   },
 
   "dependencies": {
-    "@types/node": "^14.0.23"
+    "@types/node": "^14.14.7"
   }
 }

@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.14.1"></a>
+## [2.14.1](https://github.com/Val-istar-Guo/component-template/compare/v2.14.0...v2.14.1) (2021-02-24)
+
+
+### Bug Fixes
+
+* repeated postinstall script ([f0cac6a](https://github.com/Val-istar-Guo/component-template/commit/f0cac6a))
+
+
+
 <a name="2.14.0"></a>
 # [2.14.0](https://github.com/Val-istar-Guo/component-template/compare/v2.13.0...v2.14.0) (2021-02-24)
 

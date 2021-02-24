@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.14.0"></a>
+# [2.14.0](https://github.com/Val-istar-Guo/component-template/compare/v2.13.0...v2.14.0) (2021-02-24)
+
+
+### Features
+
+* add types to package.json ([7401b2d](https://github.com/Val-istar-Guo/component-template/commit/7401b2d))
+* upgrade dependencies ([cd96388](https://github.com/Val-istar-Guo/component-template/commit/cd96388))
+
+
+
 <a name="2.13.0"></a>
 # [2.13.0](https://github.com/Val-istar-Guo/component-template/compare/v2.12.1...v2.13.0) (2020-12-04)
 

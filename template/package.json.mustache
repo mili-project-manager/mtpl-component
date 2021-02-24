@@ -4,6 +4,7 @@
   "module": "es/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
+    "postinstall": "husky install",
     "test": "ava",
     "test:debug": "ava --verbose",
     "test:update": "ava -u",
@@ -19,8 +20,8 @@
     "release:first": "standard-version --first-release",
     {{/answers.standardVersion}}
 
-    "prepublishOnly": "npm test && npm run build",
-    "postpublish": "git push",
+    "prepublishOnly": "npm test && npm run build && pinst --disable",
+    "postpublish": "pinst --enable && git push",
 
     "clean": "rm -rf ./lib/*",
     "prebuild": "npm run clean",
@@ -31,20 +32,21 @@
     "copyfile:es:js": "copyfiles -e \"@(build|es|lib)/**/*.js\" **/*.js es",
     "copyfile:es:dts": "copyfiles -e \"@(build|es|lib)/**/*.d.ts\" **/*.d.ts es",
     "copyfile:lib:js": "copyfiles -e \"@(build|es|lib)/**/*.js\" **/*.js lib",
-    "copyfile:lib:dts": "copyfiles -e \"@(build|es|lib)/**/*.d.ts\" **/*.d.ts lib"
+    "copyfile:lib:dts": "copyfiles -e \"@(build|es|lib)/**/*.d.ts\" **/*.d.ts lib",
+    "postinstall": "is-ci || husky install"
   },
   "devDependencies": {
     {{#answers.standardVersion}}
-    "@commitlint/cli": "^11.0.0",
-    "@commitlint/config-conventional": "^11.0.0",
-    "commitizen": "^4.1.2",
+    "@commitlint/cli": "^12.0.0",
+    "@commitlint/config-conventional": "^12.0.0",
+    "commitizen": "^4.2.3",
     "cz-conventional-changelog": "^3.2.0",
-    "standard-version": "^9.0.0",
+    "standard-version": "^9.1.1",
     {{/answers.standardVersion}}
 
     "nyc": "^15.1.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "ts-node": "^9.0.0",
+    "ts-node": "^9.1.1",
     "ava": "^3.10.1",
 
     {{#answers.ci}}
@@ -52,21 +54,23 @@
     {{/answers.ci}}
 
     {{#answers.lint}}
-    "@typescript-eslint/eslint-plugin": "^4.7.0",
-    "@typescript-eslint/parser": "^4.7.0",
-    "eslint": "^7.13.0",
-    "lint-staged": "^10.2.11",
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "eslint": "^7.20.0",
+    "lint-staged": "^10.5.4",
     {{/answers.lint}}
 
-    "copyfiles": "^2.3.0",
-    "husky": "^4.2.5",
-    "sinon": "^9.2.1",
+    "copyfiles": "^2.4.1",
+    "husky": "^5.1.1",
+    "is-ci": "^2.0.0",
+    "pinst": "^2.1.6",
+    "sinon": "^9.2.4",
     "ttypescript": "^1.5.12",
-    "typescript": "^4.1.2",
-    "typescript-transform-paths": "^2.1.0"
+    "typescript": "^4.2.2",
+    "typescript-transform-paths": "^2.2.3"
   },
 
   "dependencies": {
-    "@types/node": "^14.14.7"
+    "@types/node": "^14.14.31"
   }
 }

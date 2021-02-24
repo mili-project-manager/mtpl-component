@@ -31,10 +31,13 @@ exports.rules = [
     handler: ignoreWhenNoLint,
   },
   {
-    path: '.huskyrc.yml.mustache',
+    path: '.husky/pre-commit.mustache',
     handler: 'mustache',
   },
-
+  {
+    path: './husky/commit-msg',
+    handler: ignoreWhenNoStanderVersion,
+  },
   {
     path: 'src',
     upgrade: 'keep',

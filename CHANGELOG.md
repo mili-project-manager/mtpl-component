@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.14.3"></a>
+## [2.14.3](https://github.com/Val-istar-Guo/component-template/compare/v2.14.2...v2.14.3) (2021-04-21)
+
+
+### Bug Fixes
+
+* copyfile all file exclude ts ([94653da](https://github.com/Val-istar-Guo/component-template/commit/94653da))
+* tsconfig-path/register not founded ([887a79f](https://github.com/Val-istar-Guo/component-template/commit/887a79f))
+
+
+
 <a name="2.14.2"></a>
 ## [2.14.2](https://github.com/Val-istar-Guo/component-template/compare/v2.14.1...v2.14.2) (2021-04-04)
 

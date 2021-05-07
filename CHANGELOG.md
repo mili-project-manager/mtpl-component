@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [2.15.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.6...v2.15.0) (2021-05-07)
+
+
+### Features
+
+* support publish npm package in action ([7080968](https://www.github.com/Val-istar-Guo/component-template/commit/708096843487c8bfff971c9d35688fe8e23472d2))
+
 ### [2.14.6](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.5...v2.14.6) (2021-05-07)
 
 

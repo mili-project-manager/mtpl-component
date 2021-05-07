@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [2.14.5](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.4...v2.14.5) (2021-05-07)
+
+
+### Bug Fixes
+
+* auto publish not work ([69be025](https://www.github.com/Val-istar-Guo/component-template/commit/69be0250745fe856d17ca2b47722f80591e82c02))
+
 ### [2.14.4](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.3...v2.14.4) (2021-05-07)
 
 

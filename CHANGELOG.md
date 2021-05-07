@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [2.14.6](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.5...v2.14.6) (2021-05-07)
+
+
+### Bug Fixes
+
+* npm ci cannot run without lock file ([a94d545](https://www.github.com/Val-istar-Guo/component-template/commit/a94d545191eea2253c899317e2fe630b355a6490))
+
 ### [2.14.5](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.4...v2.14.5) (2021-05-07)
 
 

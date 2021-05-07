@@ -117,6 +117,10 @@ exports.rules = [
       'mustache',
     ],
   },
+  {
+    path: '.github/workflows/release.yml.mustache',
+    handler: 'mustache',
+  }
 ]
 
 exports.questions = [

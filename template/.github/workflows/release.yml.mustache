@@ -11,17 +11,17 @@ jobs:
         id: release
         with:
           release-type: node
-          package-name: "@mtpl/component"
+          package-name: "{{{project.name}}}"
       - uses: actions/checkout@v2
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{=<% %>=}}{{ steps.release.outputs.release_created }}<%={{ }}=%>
       - uses: actions/setup-node@v1
         with:
           node-version: 14
           registry-url: 'https://registry.npmjs.org'
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{=<% %>=}}{{ steps.release.outputs.release_created }}<%={{ }}=%>
       - run: npm i
-        if: ${{ steps.release.outputs.release_created }}
+        if: ${{=<% %>=}}{{ steps.release.outputs.release_created }}<%={{ }}=%>
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
-        if: ${{ steps.release.outputs.release_created }}
+          NODE_AUTH_TOKEN: ${{=<% %>=}}{{secrets.NPM_TOKEN}}<%={{ }}=%>
+        if: ${{=<% %>=}}{{ steps.release.outputs.release_created }}<%={{ }}=%>

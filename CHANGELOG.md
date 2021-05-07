@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [2.16.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.15.0...v2.16.0) (2021-05-07)
+
+
+### Features
+
+* add workflow name ([20f0ccb](https://www.github.com/Val-istar-Guo/component-template/commit/20f0ccb517544304de73fa9e9082b9f2e7281070))
+
 ## [2.15.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.6...v2.15.0) (2021-05-07)
 
 

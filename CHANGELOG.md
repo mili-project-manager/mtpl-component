@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [2.14.4](https://www.github.com/Val-istar-Guo/component-template/compare/v2.14.3...v2.14.4) (2021-05-07)
+
+
+### Bug Fixes
+
+* add github release workflow ([d1261fe](https://www.github.com/Val-istar-Guo/component-template/commit/d1261fed8bddd134352f920a434f0adbf537f7d2))
+
 ## [2.14.3](https://github.com/Val-istar-Guo/component-template/compare/v2.14.2...v2.14.3) (2021-04-21)
 
 

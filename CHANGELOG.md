@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [2.16.1](https://www.github.com/Val-istar-Guo/component-template/compare/v2.16.0...v2.16.1) (2021-05-09)
+
+
+### Bug Fixes
+
+* .husky hooks cannot run after upgrade ([ba3bf97](https://www.github.com/Val-istar-Guo/component-template/commit/ba3bf97a227a8aa6f9e23004108ce3ddbf2f3043))
+
 ## [2.16.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.15.0...v2.16.0) (2021-05-07)
 
 

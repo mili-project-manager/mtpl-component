@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [3.0.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.17.1...v3.0.0) (2021-05-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* Node.js 12 LTS is now the minimum required version.
+
+### Features
+
+* bump Node.js version requirement to 12.13.0 ([1f5ac61](https://www.github.com/Val-istar-Guo/component-template/commit/1f5ac61bf6133709c1e46b4a902118c6626e6cb6))
+
 ### [2.17.1](https://www.github.com/Val-istar-Guo/component-template/compare/v2.17.0...v2.17.1) (2021-05-11)
 
 

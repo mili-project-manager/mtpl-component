@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [2.17.1](https://www.github.com/Val-istar-Guo/component-template/compare/v2.17.0...v2.17.1) (2021-05-11)
+
+
+### Bug Fixes
+
+* action release token missing ([8a98caf](https://www.github.com/Val-istar-Guo/component-template/commit/8a98caf3a594431cab3085c752ccd631e4aefb21))
+
 ## [2.17.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.16.1...v2.17.0) (2021-05-11)
 
 

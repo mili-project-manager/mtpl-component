@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [3.1.0](https://www.github.com/Val-istar-Guo/component-template/compare/v3.0.0...v3.1.0) (2021-05-13)
+
+
+### Features
+
+* add codeql analysis action ([b985664](https://www.github.com/Val-istar-Guo/component-template/commit/b9856640e713481a85b129bb8e22392de6118df9))
+* copy file in prewatch ([9215bf4](https://www.github.com/Val-istar-Guo/component-template/commit/9215bf436e24b9f400a61c82ba2980563ac96349))
+
 ## [3.0.0](https://www.github.com/Val-istar-Guo/component-template/compare/v2.17.1...v3.0.0) (2021-05-11)
 
 

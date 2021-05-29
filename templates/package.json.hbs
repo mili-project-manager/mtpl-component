@@ -1,5 +1,4 @@
 {
-  "name": "{{{project.name}}}",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
@@ -8,16 +7,10 @@
     "test:debug": "ava --verbose",
     "test:update": "ava -u",
     "report": "nyc --reporter=html --reporter=text-summary --skip-full ava",
-    {{#answers.ci}}
+
+    {{#if answers.travis}}
     "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
-    {{/answers.ci}}
-    {{#answers.standardVersion}}
-    "ci": "git-cz",
-    "ca": "git add -A && git-cz -av",
-    "release": "standard-version --no-verify",
-    "release:alpha": "standard-version --prerelease alpha",
-    "release:first": "standard-version --first-release",
-    {{/answers.standardVersion}}
+    {{/if}}
 
     "prepublishOnly": "npm test && npm run build && pinst --disable",
     "postpublish": "pinst --enable && git push",
@@ -30,37 +23,18 @@
     "prewatch": "npm run copyfile:lib",
     "watch": "NODE_ENV=development ttsc -p build/tsconfig.lib.json -w",
     "copyfile:es": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" es",
-    "copyfile:lib": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" lib",
-    "postinstall": "is-ci || husky install"
+    "copyfile:lib": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" lib"
   },
   "devDependencies": {
-    {{#answers.standardVersion}}
-    "@commitlint/cli": "^12.0.0",
-    "@commitlint/config-conventional": "^12.0.0",
-    "commitizen": "^4.2.3",
-    "cz-conventional-changelog": "^3.2.0",
-    "standard-version": "^9.1.1",
-    {{/answers.standardVersion}}
+    {{#if answers.travis}}
+    "coveralls": "^3.1.0",
+    {{/if}}
 
     "nyc": "^15.1.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
     "ts-node": "^9.1.1",
     "ava": "^3.10.1",
-
-    {{#answers.ci}}
-    "coveralls": "^3.1.0",
-    {{/answers.ci}}
-
-    {{#answers.lint}}
-    "@typescript-eslint/eslint-plugin": "^4.15.2",
-    "@typescript-eslint/parser": "^4.15.2",
-    "eslint": "^7.20.0",
-    "lint-staged": "^11.0.0",
-    {{/answers.lint}}
-
     "copyfiles": "^2.4.1",
-    "husky": "^5.1.1",
-    "is-ci": "^3.0.0",
     "pinst": "^2.1.6",
     "sinon": "^10.0.0",
     "ttypescript": "^1.5.12",

@@ -7,7 +7,9 @@
     "strict": true,
     "noImplicitAny": false,
     "declaration": true,
-    "resolveJsonModule": {{addition.resolveJsonModule}},
+    {{#if (equals answers.module "commonjs")}}
+    "resolveJsonModule": true,
+    {{/if}}
     "baseUrl": "./",
     "noEmitOnError": true,
     "paths": {

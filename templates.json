@@ -1,0 +1,66 @@
+[
+  {
+    "path": ".github/**",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.repository.isGitHubRepo === true"
+        }
+      }
+    ]
+  },
+  {
+    "path": [
+      "src/**",
+      "tests/*(!tsconfig.json)"
+    ],
+    "handlers": [
+      "exist"
+    ]
+  },
+  {
+    "path": [
+      "package.json.hbs",
+      "tsconfig.json.hbs"
+    ],
+    "handlers": [
+      "handlebars",
+      "merge-json"
+    ]
+  },
+  {
+    "path": [
+      ".gitignore.hbs",
+      ".npmignore.hbs",
+      "README.md.hbs"
+    ],
+    "handlers": [
+      "handlebars"
+    ]
+  },
+  {
+    "path": ".npmrc.hbs",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.answers.lock === false"
+        }
+      },
+      "handlebars"
+    ]
+  },
+  {
+    "path": ".travis.yml",
+    "handlers": [
+      {
+        "name": "delete",
+        "options": {
+          "eval": "resource.answers.travis === false"
+        }
+      },
+      "merge-yaml"
+    ]
+  }
+]

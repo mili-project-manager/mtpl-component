@@ -1,0 +1,21 @@
+[
+  {
+    "type": "confirm",
+    "name": "travis",
+    "message": "Enable Travis"
+  },
+  {
+    "type": "confirm",
+    "name": "lock",
+    "message": "Enable npm/yarn lock"
+  },
+  {
+    "type": "list",
+    "name": "module",
+    "message": "Which module you want to generate",
+    "choices": [
+      "commonjs",
+      "umd"
+    ]
+  }
+]

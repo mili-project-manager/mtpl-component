@@ -1,0 +1,32 @@
+{{#if readme.title}}
+<!-- title -->{{{.}}}<!-- title -->
+{{/if}}
+{{#unless readme.title}}
+# {{{npm.name}}}
+{{/unless}}
+
+{{#if npm.name}}
+[![version](https://img.shields.io/npm/v/{{{npm.name}}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
+[![downloads](https://img.shields.io/npm/dm/{{{npm.name}}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
+[![license](https://img.shields.io/npm/l/{{{npm.name}}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
+{{/if}}
+{{#if npm.isGitHubRepo}}
+[![dependencies](https://img.shields.io/david/{{repository.gitHubOwner}}/{{repository.gitHubRepoName}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
+[![coveralls](https://img.shields.io/coveralls/github/{{repository.gitHubRepoOwner}}/{{repository.gitHubRepoName}}.svg?style=flat-square)](https://coveralls.io/github/{{repository.gitHubRepoOwner}}/{{repository.gitHubRepoName}})
+{{/if}}
+
+
+
+<!-- description -->{{{readme.description}}}<!-- description -->
+
+## Usage
+
+<!-- usage -->{{{readme.usage}}}<!-- usage -->
+
+<!-- addition -->{{{readme.addition}}}<!-- addition -->
+
+
+## Contributing & Development
+
+If there is any doubt, it is very welcome to discuss the issue together.
+Please read [Contributor Covenant Code of Conduct](.github/CODE_OF_CONDUCT.md) and [CONTRIBUTING](.github/CONTRIBUTING.md).

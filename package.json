@@ -27,15 +27,19 @@
     "commit": "git-cz",
     "release": "standard-version",
     "release:first": "standard-version --first-release",
-    "postpublish": "git push"
+    "postpublish": "git push",
+    "prepare": "is-ci || husky install",
+    "ci": "git-cz",
+    "release:alpha": "standard-version --prerelease alpha"
   },
   "devDependencies": {
-    "@commitlint/cli": "^7.2.0",
-    "@commitlint/config-conventional": "^7.1.2",
-    "commitizen": "^3.1.1",
-    "cz-conventional-changelog": "^2.1.0",
-    "husky": "^2.1.0",
-    "mili": "^3.9.3",
-    "standard-version": "^5.0.2"
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.2.0",
+    "is-ci": "^3.0.0",
+    "mili": "^4.4.1",
+    "standard-version": "^9.3.0"
   }
 }

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [4.0.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v3.1.0...v4.0.0) (2021-05-30)
+
+
+### ⚠ BREAKING CHANGES
+
+* mili@4 is now the minimum required version.
+
+### Code Refactoring
+
+* bump mili version requirement to 4 ([f59c921](https://www.github.com/mili-project-manager/mtpl-component/commit/f59c9217183e440a8abcfe3438ef26ba8450e0ff))
+
 ## [3.1.0](https://www.github.com/Val-istar-Guo/component-template/compare/v3.0.0...v3.1.0) (2021-05-13)
 
 

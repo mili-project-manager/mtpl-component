@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.0.3](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.2...v4.0.3) (2021-05-31)
+
+
+### Bug Fixes
+
+* missing file tsconfig.lib.json ([7959d9d](https://www.github.com/mili-project-manager/mtpl-component/commit/7959d9dfd792ee2f9e1d85ca654d83f48bece1d2))
+* need ignore lib/ ([68f9eaa](https://www.github.com/mili-project-manager/mtpl-component/commit/68f9eaa8a6d77bf42689822ce636175ca443c43e))
+
 ### [4.0.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.1...v4.0.2) (2021-05-31)
 
 

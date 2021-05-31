@@ -62,5 +62,39 @@
       },
       "merge-yaml"
     ]
+  },
+  {
+    "path": "build/tsconfig.cmd.json",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.answers.module !== 'commonjs'"
+        }
+      },
+      {
+        "name": "rename",
+        "options": {
+          "filename": "tsconfig.lib.json"
+        }
+      }
+    ]
+  },
+  {
+    "path": "build/tsconfig.umd.json",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.answers.module !== 'umd'"
+        }
+      },
+      {
+        "name": "rename",
+        "options": {
+          "filename": "tsconfig.lib.json"
+        }
+      }
+    ]
   }
 ]

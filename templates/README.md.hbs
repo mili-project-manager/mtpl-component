@@ -1,5 +1,5 @@
 {{#if readme.title}}
-<!-- title -->{{{.}}}<!-- title -->
+<!-- title -->{{{readme.title}}}<!-- title -->
 {{/if}}
 {{#unless readme.title}}
 # {{{npm.name}}}
@@ -10,7 +10,7 @@
 [![downloads](https://img.shields.io/npm/dm/{{{npm.name}}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
 [![license](https://img.shields.io/npm/l/{{{npm.name}}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
 {{/if}}
-{{#if npm.isGitHubRepo}}
+{{#if repository.isGitHubRepo}}
 [![dependencies](https://img.shields.io/david/{{repository.gitHubOwner}}/{{repository.gitHubRepoName}}.svg?style=flat-square)](https://www.npmjs.com/package/{{{npm.name}}})
 [![coveralls](https://img.shields.io/coveralls/github/{{repository.gitHubRepoOwner}}/{{repository.gitHubRepoName}}.svg?style=flat-square)](https://coveralls.io/github/{{repository.gitHubRepoOwner}}/{{repository.gitHubRepoName}})
 {{/if}}

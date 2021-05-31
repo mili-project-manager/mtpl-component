@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.0.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.1...v4.0.2) (2021-05-31)
+
+
+### Bug Fixes
+
+* change ts module to esnext ([8ab2286](https://www.github.com/mili-project-manager/mtpl-component/commit/8ab22860fdd6ed13a84bc16e77c753af11525703))
+
 ### [4.0.1](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.0...v4.0.1) (2021-05-31)
 
 

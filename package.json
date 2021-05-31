@@ -1,7 +1,7 @@
 {
   "name": "@mtpl/component",
   "description": "typescript component template",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "main": "index.js",
   "author": "Val-istar-Guo <val.istar.guo@gmail.com>",
   "license": "MIT",

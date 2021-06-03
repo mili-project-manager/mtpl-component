@@ -1,11 +1,26 @@
 [
   {
+    "path": [
+      ".github/PULL_REQUEST_TEMPLATE.md.hbs",
+      ".github/CONTRIBUTING.md.hbs"
+    ],
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.repository.isGitHubRepo === false"
+        }
+      },
+      "handlebars"
+    ]
+  },
+  {
     "path": ".github/**",
     "handlers": [
       {
         "name": "ignore",
         "options": {
-          "eval": "resource.repository.isGitHubRepo === true"
+          "eval": "resource.repository.isGitHubRepo === false"
         }
       }
     ]

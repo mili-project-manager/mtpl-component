@@ -3,7 +3,7 @@
     "path": [
       ".github/PULL_REQUEST_TEMPLATE.md.hbs",
       ".github/CONTRIBUTING.md.hbs",
-      ".github/release.yml.hbs"
+      ".github/workflows/release.yml.hbs"
     ],
     "handlers": [
       {

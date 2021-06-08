@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.0.7](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.6...v4.0.7) (2021-06-08)
+
+
+### Bug Fixes
+
+* es dir should be add to gitignore ([d494afc](https://www.github.com/mili-project-manager/mtpl-component/commit/d494afca489fb0e25d905eee68532ec179b5dba1))
+
 ### [4.0.6](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.5...v4.0.6) (2021-06-03)
 
 

@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.0.10](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.9...v4.0.10) (2021-06-08)
+
+
+### Bug Fixes
+
+* wrong hbs syntax ([9dbfd20](https://www.github.com/mili-project-manager/mtpl-component/commit/9dbfd2040edef05548a49c2e3507be164d9a85ff))
+
 ### [4.0.9](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.8...v4.0.9) (2021-06-08)
 
 

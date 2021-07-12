@@ -39,7 +39,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^5.2.0",
     "is-ci": "^3.0.0",
-    "mili": "^4.4.1",
+    "mili": "^4.7.1",
     "standard-version": "^9.3.0"
   }
 }

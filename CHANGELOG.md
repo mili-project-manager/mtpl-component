@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.0.11](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.10...v4.0.11) (2021-07-12)
+
+
+### Bug Fixes
+
+* code-style template default answers unsetted ([9fe5363](https://www.github.com/mili-project-manager/mtpl-component/commit/9fe5363c815f7b8bfd8ffb012ff20abde9aabc59))
+
 ### [4.0.10](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.0.9...v4.0.10) (2021-06-08)
 
 

@@ -112,5 +112,16 @@
         }
       }
     ]
+  },
+  {
+    "path": "build/tsconfig.es.json",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.answers.module === 'esnext'"
+        }
+      }
+    ]
   }
 ]

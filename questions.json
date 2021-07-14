@@ -15,7 +15,8 @@
     "message": "Which module you want to generate",
     "choices": [
       "commonjs",
-      "umd"
+      "umd",
+      "esnext"
     ]
   }
 ]

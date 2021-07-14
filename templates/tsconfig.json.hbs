@@ -2,8 +2,14 @@
   "compilerOptions": {
     "outDir": "./lib",
     "moduleResolution": "node",
+    {{#if (equals answers.module "esnext")}}
+    "module": "esnext",
+    "target": "es6",
+    {{/if}}
+    {{#unless (equals answers.module "esnext")}}
     "module": "commonjs",
     "target": "esnext",
+    {{/unless}}
     "strict": true,
     "noImplicitAny": false,
     "declaration": true,

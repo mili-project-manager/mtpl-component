@@ -1,0 +1,16 @@
+export default {
+{{#unless (equals answers.module "esnext")}}
+  files: ['tests/**/*.ts'],
+  extensions: ['ts'],
+  require: ['ts-node/register'],
+{{/unless}}
+{{#if (equals answers.module "esnext")}}
+  extensions: { ts: 'module' },
+  nonSemVerExperiments: {
+    configurableModuleFormat: true,
+  },
+  nodeArguments: [
+    '--loader=ts-node/esm',
+  ],
+{{/if}}
+}

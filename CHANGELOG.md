@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.1.3](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.1.2...v4.1.3) (2021-07-17)
+
+
+### Bug Fixes
+
+* ava config not work in esm ([b5f20bf](https://www.github.com/mili-project-manager/mtpl-component/commit/b5f20bfcc9a34d7cc6144d9f346d1e51a143e4a4))
+* ava tsconfig not work for esm ([890f14a](https://www.github.com/mili-project-manager/mtpl-component/commit/890f14a450390ad6061e319cca38f0dfd9f8b435))
+* tests file be overwrite on upgrade and update ([b93fca0](https://www.github.com/mili-project-manager/mtpl-component/commit/b93fca0d454437a54e26d8b745d01c781bbaf8cb))
+
 ### [4.1.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.1.1...v4.1.2) (2021-07-17)
 
 

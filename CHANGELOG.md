@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.1.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.1.1...v4.1.2) (2021-07-17)
+
+
+### Bug Fixes
+
+* watch script not work for esm ([05c591d](https://www.github.com/mili-project-manager/mtpl-component/commit/05c591d8cae236b02af45d1f0cc04ff3c74e06d1))
+
 ### [4.1.1](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.1.0...v4.1.1) (2021-07-14)
 
 

@@ -29,7 +29,7 @@
   {
     "path": [
       "src/**",
-      "tests/*(!tsconfig.json)"
+      "tests/!(tsconfig.json)/**"
     ],
     "handlers": [
       "exist"

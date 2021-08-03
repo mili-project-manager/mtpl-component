@@ -1,8 +1,6 @@
 [
   {
     "path": [
-      ".github/PULL_REQUEST_TEMPLATE.md.hbs",
-      ".github/CONTRIBUTING.md.hbs",
       ".github/workflows/release.yml.hbs"
     ],
     "handlers": [
@@ -13,17 +11,6 @@
         }
       },
       "handlebars"
-    ]
-  },
-  {
-    "path": ".github/**",
-    "handlers": [
-      {
-        "name": "ignore",
-        "options": {
-          "eval": "resource.repository.isGitHubRepo === false"
-        }
-      }
     ]
   },
   {

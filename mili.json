@@ -5,6 +5,14 @@
   "extends": [
     "npm:@mtpl/base",
     {
+      "template": "npm:@mtpl/github",
+      "answers": {
+        "actions": [
+          "codeql-analysis"
+        ]
+      }
+    },
+    {
       "template": "npm:@mtpl/code-style",
       "answers": {
         "framework": "node"

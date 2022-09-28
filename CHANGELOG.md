@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.2.1](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.0...v4.2.1) (2022-09-28)
+
+
+### Bug Fixes
+
+* cannot get coverage of ava and wrong esm exports ([287bfeb](https://www.github.com/mili-project-manager/mtpl-component/commit/287bfeb0800d5112ba47d0d5e4c83f556819d828))
+
 ## [4.2.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.1.4...v4.2.0) (2021-08-03)
 
 

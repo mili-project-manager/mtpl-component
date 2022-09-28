@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.2.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.1...v4.2.2) (2022-09-28)
+
+
+### Bug Fixes
+
+* unable build ([4a8fa5a](https://www.github.com/mili-project-manager/mtpl-component/commit/4a8fa5a5fa1ced800c9ade92e0c83249c4ab1a9d))
+* use module.exports replace export default in ava.config.js ([75eb79c](https://www.github.com/mili-project-manager/mtpl-component/commit/75eb79c09a864ecc70b89b67bcb7c7235fd3e287))
+
 ### [4.2.1](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.0...v4.2.1) (2022-09-28)
 
 

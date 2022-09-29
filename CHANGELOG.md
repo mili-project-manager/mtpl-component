@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [4.3.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.2...v4.3.0) (2022-09-29)
+
+
+### Features
+
+* add skipLibCheck to tsconfig.json ([48793ca](https://www.github.com/mili-project-manager/mtpl-component/commit/48793ca91988e9816a4bd01acd05618aa71fbc0d))
+
+
+### Bug Fixes
+
+* change the dependencies shields ([3e0e073](https://www.github.com/mili-project-manager/mtpl-component/commit/3e0e073016c337eed3d7ea98dcbd05bf6c4f2954))
+* unable run travis ([c6893ca](https://www.github.com/mili-project-manager/mtpl-component/commit/c6893ca3146b16a3af7ef952b76963775bbe9cc0))
+
 ### [4.2.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.1...v4.2.2) (2022-09-28)
 
 

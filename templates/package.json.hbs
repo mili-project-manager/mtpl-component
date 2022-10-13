@@ -19,13 +19,13 @@
 
     "prepublishOnly": "npm run build",
 
-    "clean": "rm -rf ./lib/*",
+    "clean": "rm -rf ./lib/* && rm -rf ./es/*",
     "prebuild": "npm run clean",
     {{#unless (equals answers.module "esnext")}}
     "build:es": "ttsc -p build/tsconfig.es.json && npm run copyfile:es",
     "build:lib": "ttsc -p build/tsconfig.lib.json && npm run copyfile:lib",
-    "copyfile:es": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" es",
-    "copyfile:lib": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" lib",
+    "copyfile:es": "copyfiles -u 1 \"src/**/*.!(ts)\" es/src",
+    "copyfile:lib": "copyfiles -u 1 \"src/**/*.!(ts)\" lib/src",
     "build": "npm run build:lib && npm run build:es",
     "prewatch": "npm run copyfile:lib",
     "watch": "NODE_ENV=development ttsc -p build/tsconfig.lib.json -w"
@@ -44,12 +44,12 @@
 
     "nyc": "^15.1.0",
     "@istanbuljs/nyc-config-typescript": "^1.0.1",
-    "ts-node": "^10.7.0",
-    "ava": "^4.2.0",
+    "ts-node": "^10.8.1",
+    "ava": "^4.3.0",
     "copyfiles": "^2.4.1",
-    "sinon": "^13.0.2",
+    "sinon": "^14.0.0",
     "ttypescript": "^1.5.13",
-    "typescript": "^4.6.3",
+    "typescript": "^4.7.4",
     "typescript-transform-paths": "^3.3.1"
   }
 }

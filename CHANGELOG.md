@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.3.1](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.3.0...v4.3.1) (2022-10-13)
+
+
+### Bug Fixes
+
+* cannot parse tsconfig.json.hbs ([eb1146b](https://www.github.com/mili-project-manager/mtpl-component/commit/eb1146bfa2c722fe2fc356f58f74859c337323e5))
+
 ## [4.3.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.2.2...v4.3.0) (2022-09-29)
 
 

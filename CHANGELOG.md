@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+## [4.5.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.4.0...v4.5.0) (2022-10-13)
+
+
+### Features
+
+* enable sourceMap for test ([5a59cf0](https://www.github.com/mili-project-manager/mtpl-component/commit/5a59cf02b0f9f5942f6cdafb9756c1bb820cf663))
+
+
+### Bug Fixes
+
+* skipLibCheck ([58ede69](https://www.github.com/mili-project-manager/mtpl-component/commit/58ede6929e57be3521ab62683c5f5a766857d7d3))
+
 ## [4.4.0](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.3.1...v4.4.0) (2022-10-13)
 
 

@@ -24,6 +24,7 @@
     {{#unless (equals answers.module "esnext")}}
     "build:es": "ttsc -p build/tsconfig.es.json && npm run copyfile:es",
     "build:lib": "ttsc -p build/tsconfig.lib.json && npm run copyfile:lib",
+    "build:test": "ttsc -p build/tsconfig.test.json && npm run copyfile:lib",
     "copyfile:es": "copyfiles -u 1 \"src/**/*.!(ts)\" es/src",
     "copyfile:lib": "copyfiles -u 1 \"src/**/*.!(ts)\" lib/src",
     "build": "npm run build:lib && npm run build:es",

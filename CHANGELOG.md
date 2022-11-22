@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 <a name="2.14.3"></a>
+### [4.5.3](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.5.2...v4.5.3) (2022-11-22)
+
+
+### Bug Fixes
+
+* unable build in ci ([e1b8ff2](https://www.github.com/mili-project-manager/mtpl-component/commit/e1b8ff2ea22589e905994a019eb8773049bbd3dc))
+
 ### [4.5.2](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.5.1...v4.5.2) (2022-10-19)
 
 

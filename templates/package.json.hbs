@@ -33,7 +33,7 @@
     {{/unless}}
     {{#if (equals answers.module "esnext")}}
     "build": "ttsc && npm run copyfile",
-    "copyfile": "copyfiles -e \"@(build|es|lib|node_modules|tests|doc)/**/*.!(ts)\" -e \"@(README.md|CHANGELOG.md|ava.config.js|backers.md)\" \"**/*.!(ts)\" lib",
+    "copyfile": "copyfiles -u 1 \"src/**/*.!(ts)\" lib/src",
     "prewatch": "npm run copyfile",
     "watch": "NODE_ENV=development ttsc -w"
     {{/if}}

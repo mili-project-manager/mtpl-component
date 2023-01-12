@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.5.4](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.5.3...v4.5.4) (2023-01-12)
+
+
+### Bug Fixes
+
+* copy all file in esnext build ([47f7718](https://www.github.com/mili-project-manager/mtpl-component/commit/47f77185f528974c963acb605d7afdccddc7cfb1))
+
 ### [4.5.4](https://github.com/Val-istar-Guo/component-template/compare/v4.5.3...v4.5.4) (2023-01-12)
 
 

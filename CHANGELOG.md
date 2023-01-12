@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.5.5](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.5.4...v4.5.5) (2023-01-12)
+
+
+### Bug Fixes
+
+* esnext ava cannot count coverage ([ea9b738](https://www.github.com/mili-project-manager/mtpl-component/commit/ea9b738c7e39cc7add6dc4bb6dd3dcb1c4fc2834))
+* rename .nycrc to .c8rc.json ([b9a756c](https://www.github.com/mili-project-manager/mtpl-component/commit/b9a756c7c80bbd61035542b76e0d19e67152e3ad))
+
 ### [4.5.4](https://www.github.com/mili-project-manager/mtpl-component/compare/v4.5.3...v4.5.4) (2023-01-12)
 
 

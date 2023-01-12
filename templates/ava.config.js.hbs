@@ -1,14 +1,12 @@
 module.exports = {
-  files: ['tests/**/*.ts'],
-{{#unless (equals answers.module "esnext")}}
-  extensions: ['ts'],
-  require: ['ts-node/register'],
-{{/unless}}
-{{#if (equals answers.module "esnext")}}
-  extensions: { ts: 'module' },
-  nonSemVerExperiments: {
-    configurableModuleFormat: true,
+  files: ['tests/**/*.ts', '!tests/**/*.before-each.ts'],
+  typescript: {
+    rewritePaths: {
+      'tests/': 'lib/tests/',
+    },
+    compile: false,
   },
+{{#if (equals answers.module "esnext")}}
   nodeArguments: [
     '--loader=ts-node/esm',
   ],
